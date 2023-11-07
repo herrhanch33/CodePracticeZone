@@ -5,8 +5,8 @@ It took me a while to understand the gcd(int a, int b) function but it works lik
 It's a recursive function that continuously uses the modulo function to reduce the b value to 0.
 First, it receives the numerator and denominator as int a and b.
 Then it recurses itself by the denominator as int a, (numerator % denominator = remainder) goes in as int b.
-The second recursion, int b(the remainder) now becomes int a. Int a(the denominator) % int b(the remainder) becomes int b.
-Here's an easy example of input 10 and 8 going through the recursion:
+The second recursion, int b(the remainder) now becomes int a. Int a(the denominator) % int b(the remainder) now becomes int b.
+Here's an easy example of input 10 and 8 going through the GCD recursion:
 10, 8
 8, 10 % 8 = 2
 A = 8, B = 2
