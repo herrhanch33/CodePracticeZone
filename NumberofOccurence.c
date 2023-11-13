@@ -1,4 +1,5 @@
-/*C Code to check the number of occurrences in an integer Array.
+/*
+C Code to check the number of occurrences in an integer Array.
 The limitations are:
 0 < array_size < 100
 0 < element < 1000
